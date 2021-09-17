@@ -1,0 +1,32 @@
+.header{
+  background: linear-gradient(0deg, $dark_pink 0%, $second_dark_pink 100%);
+}
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  background: url(../img/topbrologo.png) no-repeat;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  width: 6.533333rem;
+  height: 6.533333rem;
+}
+
+.header__nav{
+  font-weight: 600;
+  font-size: 1.33333rem;
+  line-height: 1.6rem;
+}
+.nav__link{
+  padding: 0 1rem;
+}
+.change__lang{
+  font-weight: 600;
+  font-size: 1.33333rem;
+  line-height: 1.6rem;
+}

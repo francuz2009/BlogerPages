@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "blocks/colors.scss";
+@import "blocks/cursor.scss";
+
+html {
+  font-size: 15px;
+  
+}
+*{
+  cursor: none;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: $white;
+  background-color: $dark_pink;
+  
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: $white;
+}
+
+/* Блоки */
+@import "blocks/scrollbar.scss";
+@import "blocks/header.scss";
+@import "blocks/container.scss";
+@import "blocks/blogers.scss";
+@import "blocks/sortList.scss";
+@import "blocks/footer.scss";
+@import "blocks/blogerAbout.scss";
+@import "blocks/video.scss";
+@import "blocks/blogerList.scss"

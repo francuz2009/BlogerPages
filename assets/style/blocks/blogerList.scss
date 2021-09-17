@@ -1,0 +1,12 @@
+.bloger__list{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-x: scroll;
+  .bloger{
+    padding: 0 .66666667rem 3.333333rem .66666667rem;
+    .bloger__info{
+      top: 0;
+    }
+  }
+}

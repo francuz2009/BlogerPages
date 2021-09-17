@@ -1,0 +1,15 @@
+.bloger__list {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.bloger__list .bloger {
+  padding: 0 .66666667rem 3.333333rem .66666667rem;
+}
+
+.bloger__list .bloger .bloger__info {
+  top: 0;
+}
+/*# sourceMappingURL=blogerList.css.map */

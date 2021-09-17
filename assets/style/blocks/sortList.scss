@@ -1,0 +1,125 @@
+.sort {
+  list-style-type: none;
+  font-family: inherit;
+  font-size: 1.06667rem;
+  padding: 0.4em 0;
+  color: #fff;
+  text-align: left;
+  cursor: pointer;
+  width: 224px;
+  display: inline-block;
+  position: relative;
+  padding-left: 40px;
+
+  li {
+    padding: 0;
+    position: relative;
+    z-index: 100;
+
+    .options__place {
+      display: block;
+      list-style-type: none;
+      margin: 0.5rem 0 0 0;
+      background: transparent;
+      position: absolute;
+      width: 100%;
+      max-height: 0px;
+      overflow: hidden;
+      border: 3px solid transparent;
+      top: 1.2em;
+      transition: all ease 0.25s;
+
+      li {
+          padding: 5px 20px;
+          font-family: 'Roboto', sans-serif;
+        
+
+        &:hover {
+          background: $check;
+          border-radius: 5px;
+          margin: 0 10px;
+        }
+
+        &:last-of-type {
+          border-bottom: 0;
+        }
+      }
+    }
+
+    .options__place.open {
+
+    max-height: 1000%;
+    border-top: 3px solid transparent;
+    background: rgba(110, 16, 94, 0.5);
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 5px 5px #ffffff40;
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    padding: 10px 0;
+    }
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: .6666667rem;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+
+    transform: rotate(135deg);
+    transition: all ease 0.25s;
+  }
+}
+
+.sort.open {
+  &:before {
+    transform: rotate(-45deg);
+    top: 14px;
+  }
+}
+
+.options__way {
+  display: block;
+  list-style-type: none;
+  margin: 0.5rem 0 0 0;
+  background: transparent;
+  position: absolute;
+  width: 100%;
+  max-height: 0px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  top: 1.2em;
+  transition: all ease 0.25s;
+
+  li {
+    padding: 5px 20px;
+
+
+    &:hover {
+      background: $check;
+      border-radius: 5px;
+      margin: 0 10px;
+    }
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+}
+
+.options__way.open {
+
+  max-height: 1000%;
+  border-top: 3px solid transparent;
+  background: rgba(110, 16, 94, 0.5);
+  border: 0.5px solid #000000;
+  box-sizing: border-box;
+  box-shadow: inset 0px 0px 5px 5px #ffffff40;
+  backdrop-filter: blur(20px);
+  border-radius: 12px;
+  padding: 10px 0;
+}

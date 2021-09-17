@@ -1,0 +1,37 @@
+.header {
+  background: linear-gradient(0deg, rgba(110, 16, 94, 0), #320029);
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  background: url("D:/js/TopBro/assets/img/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode: normal;
+  padding: 0px;
+  margin: 0px;
+  width: 6.533333rem;
+  height: 6.533333rem;
+}
+
+.header__nav {
+  font-weight: 600;
+  font-size: 1.33333rem;
+  line-height: 1.6rem;
+}
+
+.nav__link {
+  padding: 0 1rem;
+}
+
+.change__lang {
+  font-weight: 600;
+  font-size: 1.33333rem;
+  line-height: 1.6rem;
+}
+/*# sourceMappingURL=header.css.map */

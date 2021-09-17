@@ -1,0 +1,23 @@
+.container{
+  width: 100%;
+  max-width: 1304px;
+  padding: 0.66666rem 4.533333rem;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  padding: 1.4666667rem 0 1.5333333rem;
+}
+
+.breadcrumb__link {
+  font-size: .933333333rem;
+  font-weight: 300;
+  line-height: 1.138rem;
+
+  &.active {
+    color: $dark_pink;
+    background: $white;
+    border-radius: 1.3333333rem;
+    padding: .133333rem .7333333rem .2rem;
+  }
+}

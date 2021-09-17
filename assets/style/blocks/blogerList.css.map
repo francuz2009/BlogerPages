@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACX,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,MAAM;EACjB,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;CAOnB;;AAXD,AAKE,aALW,CAKX,OAAO,CAAA;EACL,OAAO,EAAE,uCAAuC;CAIjD;;AAVH,AAOI,aAPS,CAKX,OAAO,CAEL,aAAa,CAAA;EACX,GAAG,EAAE,CAAC;CACP",
+    "sources": [
+        "blogerList.scss"
+    ],
+    "names": [],
+    "file": "blogerList.css"
+}
